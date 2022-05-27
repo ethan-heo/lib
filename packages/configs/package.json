@@ -1,0 +1,9 @@
+{
+  "name": "@ethan-heo/configs",
+  "version": "0.0.0",
+  "main": "index.js",
+  "files": [
+    "jest/config.js",
+    "tsconfig"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "target": "ES2015",
+        "jsx": "react-jsx"
+    },
+    "include": ["src", "next-env.d.ts"],
+    "exclude": ["node_modules"]
+}

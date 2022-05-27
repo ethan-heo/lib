@@ -1,0 +1,17 @@
+{
+  "pipeline": {
+    "build": {
+      "dependsOn": ["lint", "test"],
+      "outputs": ["dist/**", ".next/**"]
+    },
+    "test": {
+      "outputs": ["src/**/*.ts", "src/**/*.tsx"]
+    },
+    "lint": {
+      "outputs": []
+    },
+    "dev": {
+      "cache": false
+    }
+  }
+}

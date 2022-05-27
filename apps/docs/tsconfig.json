@@ -1,0 +1,17 @@
+{
+  "extends": "@ethan-heo/configs/tsconfig/tsconfig.next.json",
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "jsx": "preserve"
+  }
+}
